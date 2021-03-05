@@ -1,0 +1,44 @@
+body {
+    background-color: gray;
+    margin: 0;
+}
+.mainPage {
+    /* background-image: url('/img/parche.jpeg'); */
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid blue;
+}
+.socialMedia {
+    border: 1px solid red;
+    display: flex;
+    width: 20%;
+    justify-content: space-between;
+
+    
+}
+.content {
+    border: 1px solid green;
+    display: flex;
+    width: 70%;
+    height: 80%;
+    align-items: center;
+    justify-content: center;
+}
+img {
+    width: 30%;
+}
+.pawn {
+    margin-bottom: 40%;
+    /* position: relative;
+    top: -20%; */
+    /* border: 1px solid yellow; */
+
+
+}
+
+/* .socialMedia p {
+    padding: 0 50%;
+} */
